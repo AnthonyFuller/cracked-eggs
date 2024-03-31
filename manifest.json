@@ -1,9 +1,86 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"id": "anthonyfuller.crackedeggs",
+	"name": "Cracked Eggs",
+	"description": "Because sometimes you need to break a few eggs to poison someone.",
+	"authors": ["Anthony Fuller"],
+	"frameworkVersion": "2.25.1",
+	"contentFolders": ["content/base"],
+	"blobsFolders": ["content/blobs"],
+	"peacockPlugins": ["content/CrackedEggs.plugin.js"],
+	"localisation": {
+		"english": {
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_NAME": "Out of Date",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_DESC": "<li>Kill a target using the \"Red Easter Egg\".</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_NAME": "Salmonella",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_DESC": "<li>Give a target food poisoning using the \"Green Easter Egg\".</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_NAME": "Catch!",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_DESC": "<li>Throw a \"Yellow Easter Egg\" at a surface or a person.</li>"
+		},
+		"french": {
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_NAME": "Out of Date",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_DESC": "<li>Kill a target using the \"Red Easter Egg\".</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_NAME": "Salmonella",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_DESC": "<li>Give a target food poisoning using the \"Green Easter Egg\".</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_NAME": "Catch!",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_DESC": "<li>Throw a \"Yellow Easter Egg\" at a surface or a person.</li>"
+		},
+		"italian": {
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_NAME": "Out of Date",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_DESC": "<li>Kill a target using the \"Red Easter Egg\".</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_NAME": "Salmonella",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_DESC": "<li>Give a target food poisoning using the \"Green Easter Egg\".</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_NAME": "Catch!",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_DESC": "<li>Throw a \"Yellow Easter Egg\" at a surface or a person.</li>"
+		},
+		"german": {
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_NAME": "Veraltet",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_DESC": "<li>Töte eine Zielperson mit dem roten Osterei.</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_NAME": "Salmonellen",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_DESC": "<li>Vergifte eine Zielperson mit dem grünen Osterei.</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_NAME": "Catch!",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_DESC": "<li>Wirf ein gelbes Osterei auf eine Oberfläche, oder eine Person.</li>"
+		},
+		"spanish": {
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_NAME": "Out of Date",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_DESC": "<li>Kill a target using the \"Red Easter Egg\".</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_NAME": "Salmonella",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_DESC": "<li>Give a target food poisoning using the \"Green Easter Egg\".</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_NAME": "Catch!",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_DESC": "<li>Throw a \"Yellow Easter Egg\" at a surface or a person.</li>"
+		},
+		"russian": {
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_NAME": "Out of Date",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_DESC": "<li>Kill a target using the \"Red Easter Egg\".</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_NAME": "Salmonella",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_DESC": "<li>Give a target food poisoning using the \"Green Easter Egg\".</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_NAME": "Catch!",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_DESC": "<li>Throw a \"Yellow Easter Egg\" at a surface or a person.</li>"
+		},
+		"chineseSimplified": {
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_NAME": "Out of Date",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_DESC": "<li>Kill a target using the \"Red Easter Egg\".</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_NAME": "Salmonella",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_DESC": "<li>Give a target food poisoning using the \"Green Easter Egg\".</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_NAME": "Catch!",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_DESC": "<li>Throw a \"Yellow Easter Egg\" at a surface or a person.</li>"
+		},
+		"chineseTraditional": {
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_NAME": "Out of Date",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_DESC": "<li>Kill a target using the \"Red Easter Egg\".</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_NAME": "Salmonella",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_DESC": "<li>Give a target food poisoning using the \"Green Easter Egg\".</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_NAME": "Catch!",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_DESC": "<li>Throw a \"Yellow Easter Egg\" at a surface or a person.</li>"
+		},
+		"japanese": {
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_NAME": "Out of Date",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_DESC": "<li>Kill a target using the \"Red Easter Egg\".</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_NAME": "Salmonella",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_DESC": "<li>Give a target food poisoning using the \"Green Easter Egg\".</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_NAME": "Catch!",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_DESC": "<li>Throw a \"Yellow Easter Egg\" at a surface or a person.</li>"
+		}
+	}
 }

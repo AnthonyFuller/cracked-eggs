@@ -1,0 +1,58 @@
+{
+	"tempHash": "007A97BE32132C7D",
+	"tbluHash": "0003026039685ABD",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe041e0b40a998",
+				{
+					"parent": "4552333142ea0510",
+					"name": "Keyword_ITEMRULE_VIAL_SMALL",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_itemrule_vial_small.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_itemrule_vial_small.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["bf903147db1eb2f5"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe48e9bd181a67",
+				{
+					"parent": "4552333142ea0510",
+					"name": "Keyword_ITEM_POISON",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["bf903147db1eb2f5"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe48e9bd181a68",
+				{
+					"parent": "4552333142ea0510",
+					"name": "Keyword_ITEM_POISON_FAST",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison_fast.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison_fast.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["bf903147db1eb2f5"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

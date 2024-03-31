@@ -1,0 +1,65 @@
+{
+	"PROP_MELEE_RED_EASTEREGG_LETHALGAS": {
+		"Id": "PROP_MELEE_RED_EASTEREGG_LETHALGAS",
+		"Guid": "621f696e-6ddf-4194-bf99-ead6fabdcc78",
+		"Type": "gear",
+		"Subtype": "poison",
+		"ImageId": "",
+		"RMTPrice": 149,
+		"GamePrice": 149,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 3,
+			"LoadoutSlot": "gear",
+			"Rarity": "common",
+			"RepositoryId": "271eb4ce-7297-449d-95d4-20cd56dffd80"
+		},
+		"Rarity": "common"
+	},
+	"PROP_MELEE_GREEN_EASTEREGG_EMETICGAS": {
+		"Id": "PROP_MELEE_GREEN_EASTEREGG_EMETICGAS",
+		"Guid": "48a9a053-cf65-40b2-a251-e00586857058",
+		"Type": "gear",
+		"Subtype": "poison",
+		"ImageId": "",
+		"RMTPrice": 149,
+		"GamePrice": 149,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 3,
+			"LoadoutSlot": "gear",
+			"Rarity": "common",
+			"RepositoryId": "3a05dae6-d904-4a18-8196-de2d46e4c5d4"
+		},
+		"Rarity": "common"
+	},
+	"PROP_MELEE_YELLOW_EASTEREGG": {
+		"Id": "PROP_MELEE_YELLOW_EASTEREGG",
+		"Guid": "e3ccc5da-8281-4e97-9b08-b99da3891fde",
+		"Type": "gear",
+		"Subtype": "melee",
+		"ImageId": "",
+		"RMTPrice": 149,
+		"GamePrice": 149,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 3,
+			"LoadoutSlot": "gear",
+			"Rarity": "common",
+			"RepositoryId": "4ec12492-e385-424d-9f23-6f605501242d"
+		},
+		"Rarity": "common"
+	}
+}
