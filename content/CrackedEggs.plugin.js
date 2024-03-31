@@ -184,7 +184,7 @@ const challenges = [
 
 module.exports = function CrackedEggs(controller) {
 	if (Math.abs(PEACOCKVER) < 6600) {
-		log(LogLevel.ERROR, `[Cracked Eggs] This plugin requires Peacock v7! You're on v${PEACOCKVERSTRING}!`)
+		log(LogLevel.ERROR, `[Cracked Eggs] This plugin requires Peacock v6.6.0! You're on v${PEACOCKVERSTRING}!`)
 		return
 	}
 
