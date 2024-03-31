@@ -1,11 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"id": "anthonyfuller.crackedeggs",
 	"name": "Cracked Eggs",
 	"description": "Because sometimes you need to break a few eggs to poison someone.",
 	"authors": ["Anthony Fuller"],
-	"frameworkVersion": "2.25.1",
+	"frameworkVersion": "2.33.9",
 	"contentFolders": ["content/base"],
 	"blobsFolders": ["content/blobs"],
 	"peacockPlugins": ["content/CrackedEggs.plugin.js"],
@@ -82,5 +82,6 @@
 			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_NAME": "Catch!",
 			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_DESC": "<li>Throw a \"Yellow Easter Egg\" at a surface or a person.</li>"
 		}
-	}
+	},
+	"updateCheck": "https://github.com/AnthonyFuller/cracked-eggs/releases/latest/download/updates.json"
 }
