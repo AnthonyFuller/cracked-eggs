@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"id": "anthonyfuller.crackedeggs",
 	"name": "Cracked Eggs",
 	"description": "Because sometimes you need to break a few eggs to poison someone.",

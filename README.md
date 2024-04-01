@@ -6,4 +6,4 @@ Because sometimes you need to break a few eggs to poison someone.
 
 ---
 
-`anthonyfuller.crackedeggs` v1.1.0, by Anthony Fuller. This README was automatically generated from the mod's manifest.
+`anthonyfuller.crackedeggs` v1.2.0, by Anthony Fuller. This README was automatically generated from the mod's manifest.
