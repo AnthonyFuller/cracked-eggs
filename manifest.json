@@ -59,12 +59,12 @@
 			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_DESC": "<li>Throw a \"Yellow Easter Egg\" at a surface or a person.</li>"
 		},
 		"chineseSimplified": {
-			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_NAME": "Out of Date",
-			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_DESC": "<li>Kill a target using the \"Red Easter Egg\".</li>",
-			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_NAME": "Salmonella",
-			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_DESC": "<li>Give a target food poisoning using the \"Green Easter Egg\".</li>",
-			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_NAME": "Catch!",
-			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_DESC": "<li>Throw a \"Yellow Easter Egg\" at a surface or a person.</li>"
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_NAME": "已过时",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_DESC": "<li>用\"红色复活节彩蛋\"消灭目标。</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_NAME": "沙门氏菌",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_EMETIC_DESC": "<li>用\"绿色复活节彩蛋\"让目标食物中毒。</li>",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_NAME": "接住了！",
+			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_YELLOW_DESC": "<li>将\"黄色复活节彩蛋\"扔向地面或人。</li>"
 		},
 		"chineseTraditional": {
 			"UI_CHALLENGE_GRASSSNAKE_EGGHUNT_LETHAL_NAME": "Out of Date",
